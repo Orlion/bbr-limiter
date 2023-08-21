@@ -1,0 +1,20 @@
+{
+    "name": "orlion/bbr-limiter",
+    "description": "php bbr limiter",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Orlion\\BbrLimiter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Orlion",
+            "email": "orlionml@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-apcu": "*"
+    }
+}
